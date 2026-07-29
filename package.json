@@ -41,6 +41,13 @@
       "subtitle": "Karakeep",
       "description": "Create a new bookmark",
       "mode": "view"
+    },
+    {
+      "name": "bulkAddBookmarks",
+      "title": "Bulk Add Bookmarks",
+      "subtitle": "Karakeep",
+      "description": "Extracts every URL from the clipboard and creates one Karakeep bookmark per link.",
+      "mode": "no-view"
     }
   ],
   "dependencies": {
