@@ -25,6 +25,11 @@ npm install && npm run dev
 # Enjoy it
 ```
 
+Using Raycast Beta instead of stable Raycast? Run `npm run dev:beta`, which passes
+`-t x` so the extension installs where the Beta app can load it. Running plain
+`npm run dev` while only Beta is open makes commands fail with
+"Missing executable", because they get installed for stable Raycast.
+
 ## ✨ Features
 
 ### Core Features
